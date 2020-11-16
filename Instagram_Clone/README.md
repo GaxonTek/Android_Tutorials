@@ -4,4 +4,4 @@
 <p>This apps purpose is to have a timer to tell the user when they should be in a high intensity state and when to be in a low intensity state.  The user is able to change the full duration of the cardio workout and set the length of high intensity intervals.</p>
 
 
-<image src=app/src/main/res/drawable/logo.png width='500' align="center"/>
+<image src=app/src/main/res/drawable/logo.PNG width='500' align="center"/>
