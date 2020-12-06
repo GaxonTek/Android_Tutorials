@@ -35,7 +35,7 @@ public class SignInActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        UtilsInitilization();
+        UtilsInitialization();
 
         //For Testing
         btnSignIn.setEnabled(true);
@@ -63,7 +63,7 @@ public class SignInActivity extends AppCompatActivity {
         });
     }
 
-    private void UtilsInitilization(){
+    private void UtilsInitialization(){
         btnSignIn = findViewById(R.id.btn_signin);
         etEmail = findViewById(R.id.et_email);
         etPassword = findViewById(R.id.et_password);

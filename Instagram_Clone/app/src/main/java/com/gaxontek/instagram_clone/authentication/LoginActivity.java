@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         mAuth = FirebaseAuth.getInstance();
 
-        UtilsInitilization();
+        UtilsInitialization();
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    private void UtilsInitilization(){
+    private void UtilsInitialization(){
         btnSignIn = findViewById(R.id.btn_signin);
         tvNewAccount = findViewById(R.id.text_create_account);
     }

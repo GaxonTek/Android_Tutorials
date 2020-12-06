@@ -21,14 +21,14 @@ public class MainNavigationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_navigation);
-        UtilsInitilization();
+        UtilsInitialization();
 
 
 
         NavigationUI.setupWithNavController(mNavView, mNavController);
     }
 
-    public void UtilsInitilization(){
+    public void UtilsInitialization(){
         mNavView = findViewById(R.id.nav_view);
         mNavController = Navigation.findNavController(this, R.id.nav_host_fragment);
 

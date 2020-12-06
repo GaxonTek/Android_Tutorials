@@ -42,7 +42,7 @@ public class SignUpActivity extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance();
         myRef = mDatabase.getReference("users");
 
-        UtilsInitilization();
+        UtilsInitialization();
 
         etUser.addTextChangedListener(watcher);
         etEmail.addTextChangedListener(watcher);
@@ -66,7 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
         });
     }
 
-    private void UtilsInitilization() {
+    private void UtilsInitialization() {
         etUser = findViewById(R.id.et_username);
         etEmail = findViewById(R.id.et_email);
         etPassword = findViewById(R.id.et_password);
