@@ -13,4 +13,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="facebook_app_id">373343117296869</string>
+    <string name="fb_login_protocol_scheme">fb373343117296869</string>
 </resources>
